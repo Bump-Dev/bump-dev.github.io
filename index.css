@@ -4,16 +4,19 @@ html,
 body {
   margin: 0;
 }
+
 div.flexbox {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 div.textdiv {
   vertical-align: middle;
   line-height: 100%;
 }
+
 h1,
 h2,
 h3,
