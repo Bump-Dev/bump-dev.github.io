@@ -3,6 +3,8 @@
 html,
 body {
   margin: 0;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 div.flexbox {
@@ -27,4 +29,8 @@ p {
   text-align: center;
   vertical-align: middle;
   font-family: "Indie Flower", cursive;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
