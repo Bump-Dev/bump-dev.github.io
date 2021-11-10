@@ -52,30 +52,44 @@ div.textbox {
 
 .one {
   grid-area: one;
+  border-radius: 10%;
+  overflow: hidden;
 }
 
 .two {
   grid-area: two;
+  border-radius: 10%;
+  overflow: hidden;
 }
 
 .three {
   grid-area: three;
+  border-radius: 10%;
+  overflow: hidden;
 }
 
 .four {
   grid-area: four;
+  border-radius: 10%;
+  overflow: hidden;
 }
 
 .five {
   grid-area: five;
+  border-radius: 10%;
+  overflow: hidden;
 }
 
 .six {
   grid-area: six;
+  border-radius: 10%;
+  overflow: hidden;
 }
 
 .seven {
   grid-area: seven;
+  border-radius: 10%;
+  overflow: hidden;
 }
 
 h1,
