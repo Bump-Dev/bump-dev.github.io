@@ -29,7 +29,7 @@ div.textbox {
   grid-template-areas:
     "one two three"
     "four five six"
-    "empty1 seven empty2";
+    "seven eight empty";
 }
 
 @media (max-width: 670px) {
@@ -46,7 +46,8 @@ div.textbox {
       "four"
       "five"
       "six"
-      "seven";
+      "seven"
+      "eight";
   }
 }
 
@@ -88,6 +89,12 @@ div.textbox {
 
 .seven {
   grid-area: seven;
+  border-radius: 10%;
+  overflow: hidden;
+}
+
+.eight {
+  grid-area: eight;
   border-radius: 10%;
   overflow: hidden;
 }
