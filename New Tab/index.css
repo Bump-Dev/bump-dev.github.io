@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap");
+
+html,
+body {
+  margin: 0;
+  background-color: #ffa001;
+}
+
+div.flexbox {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div.textbox {
+  margin-bottom: 15vh;
+  vertical-align: middle;
+  line-height: 100%;
+}
+
+.navbar {
+  background-color: #ee9700;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5vh 2vh;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  background-color: #f89d00;
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+input,
+textarea,
+form,
+button {
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Fuzzy Bubbles", cursive;
+}
+
+p,
+b {
+  font-size: x-large;
+}
+
+button {
+  width: 102.5%;
+  height: 20%;
+  font-size: large;
+}
+
+#q {
+  text-align: center;
+  padding-top: 2.5%;
+  width: 100%;
+  height: 25%;
+  margin-bottom: 2.5%;
+  font-size: large;
+  resize: none;
+}
