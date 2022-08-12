@@ -29,7 +29,7 @@ div.textbox {
   grid-template-areas:
     "one two three"
     "four five six"
-    "seven eight empty";
+    "seven eight nine";
 }
 
 @media (max-width: 670px) {
@@ -47,56 +47,48 @@ div.textbox {
       "five"
       "six"
       "seven"
-      "eight";
+      "eight"
+      "nine";
   }
 }
 
-.one {
-  grid-area: one;
-  border-radius: 10%;
+iframe {
+  border-radius: 5%;
   overflow: hidden;
 }
-
+.one{
+  grid-area: one;
+}
 .two {
   grid-area: two;
-  border-radius: 10%;
-  overflow: hidden;
 }
 
 .three {
   grid-area: three;
-  border-radius: 10%;
-  overflow: hidden;
 }
 
 .four {
   grid-area: four;
-  border-radius: 10%;
-  overflow: hidden;
 }
 
 .five {
   grid-area: five;
-  border-radius: 10%;
-  overflow: hidden;
 }
 
 .six {
   grid-area: six;
-  border-radius: 10%;
-  overflow: hidden;
 }
 
 .seven {
   grid-area: seven;
-  border-radius: 10%;
-  overflow: hidden;
 }
 
 .eight {
   grid-area: eight;
-  border-radius: 10%;
-  overflow: hidden;
+}
+
+.nine {
+  grid-area: nine;
 }
 
 h1,
