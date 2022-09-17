@@ -5,6 +5,7 @@ body {
   margin: 0;
   scrollbar-width: none;
   -ms-overflow-style: none;
+  font-family: "Indie Flower", cursive;
 }
 
 div.flexbox {
@@ -52,10 +53,6 @@ div.textbox {
   }
 }
 
-iframe {
-  border-radius: 5%;
-  overflow: hidden;
-}
 .one{
   grid-area: one;
 }
@@ -100,7 +97,6 @@ h6,
 p {
   text-align: center;
   vertical-align: middle;
-  font-family: "Indie Flower", cursive;
 }
 
 ::-webkit-scrollbar {
