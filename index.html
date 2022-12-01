@@ -5,21 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bump Dev</title>
-    <link rel="stylesheet" href="index.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
-    <script>
-      AOS.init({
-        once: false,
-        mirror: true,
-        anchorPlacement: "top-bottom",
-        offset: 0,
-        duration: 800,
-      });
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </script>
   </head>
-  <body data-aos-easing="ease" data-aos-duration="800" data-aos-delay="0">
+  <body>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({delay:0});
+    </script>
+
     <section class="centered">
-      <div class="centered" data-aos="fade-right">
+      <div class="centered" data-aos="zoom-in" >
         <img draggable="false" width="240vh" src="icon.png" />
         <header class="heading" style="font-size: 500%; text-align: center">
           Bump Dev
@@ -27,9 +26,9 @@
       </div>
     </section>
     <section class="centered">
-      <div>
-        <h1 data-aos="zoom-out">hello my name is apple man 🍎</h1>
-        <h1 data-aos="flip-right">marhaba ismi rajulu altufah 🍏</h1>
+      <div data-aos="fade-down" data-aos-duration="500">
+        <h1>hello my name is apple man 🍎</h1>
+        <h1>marhaba ismi rajulu altufah 🍏</h1>
       </div>
     </section>
   </body>

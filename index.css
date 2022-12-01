@@ -14,11 +14,7 @@
 
 body {
     background-color: #0C577B;
-    text-shadow:
-        -2.5px -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
+    text-shadow: #000 1px 0 5px;
 }
 
 .centered-top {
