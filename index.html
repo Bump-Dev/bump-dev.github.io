@@ -8,27 +8,44 @@
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    </script>
+    <script src="index.js"></script>
   </head>
   <body>
-    
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init({delay:0});
+      AOS.init({ delay: 0 });
     </script>
 
-    <section class="centered">
-      <div class="centered" data-aos="zoom-in" >
+    <section id="1" class="centered">
+      <div class="centered" data-aos="zoom-in">
         <img draggable="false" width="240vh" src="icon.png" />
-        <header class="heading" style="font-size: 500%; text-align: center">
-          Bump Dev
-        </header>
+        <header class="heading" style="font-size: 500%">Bump Dev</header>
+        <input
+          style="margin-top: 10%"
+          type="image"
+          src="https://cdn3.iconfinder.com/data/icons/minimal-website-ui-kit/100/ld_chevron_down-512.png"
+          width="50vh"
+          onclick="document.getElementById(2).scrollIntoView();"
+        />
       </div>
     </section>
-    <section class="centered">
-      <div data-aos="fade-down" data-aos-duration="500">
+
+    <section id="2">
+      <div class="centered" data-aos="fade-down" data-aos-duration="500">
+        <input
+          type="image"
+          src="https://cdn3.iconfinder.com/data/icons/minimal-website-ui-kit/100/ld_chevron_up-512.png"
+          width="50vh"
+          onclick="document.getElementById(1).scrollIntoView();"
+        />
         <h1>hello my name is apple man 🍎</h1>
         <h1>marhaba ismi rajulu altufah 🍏</h1>
+        <input
+          type="image"
+          src="https://cdn3.iconfinder.com/data/icons/minimal-website-ui-kit/100/ld_chevron_down-512.png"
+          width="50vh"
+          onclick="document.getElementById(3).scrollIntoView();"
+        />
       </div>
     </section>
   </body>
