@@ -6,6 +6,10 @@ window.onscroll = function (e) {
   } else if (this.scrollY < this.oldScroll && currentSection != 1) {
     currentSection--;
   }
-  document.getElementById(currentSection).scrollIntoView();
+  if (currentSection == 1) {
+    window.scrollTo(0, 0);
+  } else {
+    document.getElementById(currentSection).scrollIntoView();
+  }
   this.oldScroll = this.scrollY;
 };
