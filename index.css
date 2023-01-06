@@ -27,6 +27,7 @@
 body {
     background-color: #0C577B;
     text-shadow: #000 1px 0 5px;
+    overflow: hidden;
 }
 
 .centered-top {
@@ -44,8 +45,9 @@ body {
     min-height: 100vh;
 }
 
-.centered-same-line {
+.centered-grid {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
