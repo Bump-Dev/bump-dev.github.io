@@ -1,0 +1,40 @@
+:root {
+    --orange-peel: #ffa001ff;
+    --lapis-lazuli: #0c577bff;
+    --light-yellow: #f8ffe5ff;
+    --light-green: #7dde92ff;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--lapis-lazuli);
+    color: var(--orange-peel);
+    text-align: center;
+    margin: 0;
+}
+
+section {
+    /* border-style: solid none solid none; */
+    border-width: 0.07em;
+    border-color: var(--light-green);
+}
+
+.title {
+    border: 0;
+    line-height: 0;
+    image-rendering: pixelated;
+}
+
+.projects {
+    display: flex;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.game-thumbnail {
+    width: 15em;
+    margin: 1em;
+    box-shadow: 0.5em 0.5em black;
+    border-radius: 0.7em;
+}
