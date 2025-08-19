@@ -1,0 +1,43 @@
+Privacy Policy for Food Knockout
+
+Effective Date: 19/8/2025
+
+This Privacy Policy describes how Food Knockout handles user information.
+
+Information We Collect
+
+We do not personally collect, store, or share any personal data from players of Food Knockout.
+
+However, the game displays advertisements provided by Appodeal and its mediated ad partners. These third-party services may automatically collect certain information, such as:
+
+Device identifiers (e.g., Advertising ID)
+
+IP address
+
+General location (non-precise)
+
+Interactions with ads (e.g., impressions, clicks)
+
+This information is used solely for delivering and personalizing ads, tracking performance, and ensuring compliance with legal requirements.
+
+Children’s Privacy
+
+Food Knockout is child-friendly and does not knowingly collect personal information from children. Appodeal has been configured to serve only child-appropriate ads.
+
+Third-Party Services
+
+The game uses Appodeal to mediate ads from multiple ad providers. For more details, please see Appodeal’s Privacy Policy:
+👉 https://www.appodeal.com/privacy-policy
+
+Your Choices
+
+Depending on your device and region, you may have the ability to:
+
+Opt out of personalized ads via device settings (e.g., “Opt out of Ads Personalization” on Android).
+
+Manage consent choices through the in-game consent form (if shown).
+
+Contact
+
+If you have any questions about this Privacy Policy, you may contact us at:
+📧 obai.alashkar@gmail.com
