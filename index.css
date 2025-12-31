@@ -1,40 +1,66 @@
-:root {
-    --orange-peel: #ffa001ff;
-    --lapis-lazuli: #0c577bff;
-    --light-yellow: #f8ffe5ff;
-    --light-green: #7dde92ff;
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: "Edu NSW ACT Foundation", sans-serif;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+-webkit-scrollbar {
+    display: none;
+}
+
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: var(--lapis-lazuli);
-    color: var(--orange-peel);
-    text-align: center;
-    margin: 0;
+    background-color: #0C577B;
+    text-shadow: #000 1px 0 5px;
+    overflow: hidden;
 }
 
-section {
-    /* border-style: solid none solid none; */
-    border-width: 0.07em;
-    border-color: var(--light-green);
-}
-
-.title {
-    border: 0;
-    line-height: 0;
-    image-rendering: pixelated;
-}
-
-.projects {
+.centered-top {
     display: flex;
-    overflow-x: scroll;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.game-thumbnail {
-    width: 15em;
-    margin: 1em;
-    box-shadow: 0.5em 0.5em black;
-    border-radius: 0.7em;
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.centered-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.heading {
+    text-align: center;
+    font-weight: bold;
+    color: #ffa001;
+}
+
+h1 {
+    color: #2ce8f4;
+    font-size: 250%;
 }
